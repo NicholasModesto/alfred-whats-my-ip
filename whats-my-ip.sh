@@ -1,2 +1,1 @@
-your_ip=$(curl ipecho.net/plain);
-echo $your_ip;
+your_ip=$(curl -s ipecho.net/plain); echo $your_ip;
